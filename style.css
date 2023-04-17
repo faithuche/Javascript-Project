@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('./assets/images/bg-game.jpg');
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 100vh;
+     background-color: blueviolet;
+}
+
+.container{
+    /* background:red; */
+    width: 50%;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 10vh;
+}
+
+.title{
+    text-align: center;
+    padding-top: 30px;
+    font-family:  'Tilt Prism', cursive;
+    font-size: 60px;
+    color: floralwhite;
+    text-shadow: 10px 20px 30px #a4a3a3;
+}
+
+.sub-title{
+    text-align: center;
+    padding-top:20px ;
+    font-family: 'Tilt Prism', cursive;
+    color:floralwhite;
+    border-radius: border-box;
+    font-size: 50px;
+    /* background-position-x: 20px; */
+}
